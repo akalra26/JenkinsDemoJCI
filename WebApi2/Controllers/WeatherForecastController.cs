@@ -29,5 +29,12 @@ namespace WebApi2.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet]
+        [Route("getmsg")]
+        public string getmsg()
+        {
+            return "Hello from getmsg action";
+        }
     }
 }
